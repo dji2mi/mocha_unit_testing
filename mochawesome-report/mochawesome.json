@@ -1,0 +1,309 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 7,
+    "passes": 7,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-08-13T10:32:42.846Z",
+    "end": "2019-08-13T10:32:42.863Z",
+    "duration": 17,
+    "testsRegistered": 7,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c7ecc408-db05-418f-a405-663d99e5ad75",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "8930847e-24bf-49d7-a0e5-01605bb93e9b",
+          "title": "multiply",
+          "fullFile": "D:\\Учеба\\JS\\calculator\\calc\\test\\specs\\multiply.spec.js",
+          "file": "\\test\\specs\\multiply.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook",
+              "fullTitle": "multiply \"before each\" hook",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "multiply = new Calculator();",
+              "err": {},
+              "uuid": "fab0eec2-dcfa-4f17-80d4-858ef819a20f",
+              "parentUUID": "8930847e-24bf-49d7-a0e5-01605bb93e9b",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after each\" hook",
+              "fullTitle": "multiply \"after each\" hook",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "multiply = null;",
+              "err": {},
+              "uuid": "cc94756f-49eb-43bd-a345-900ff4837e7a",
+              "parentUUID": "8930847e-24bf-49d7-a0e5-01605bb93e9b",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "should return 0 when called with numbers 0 and 15",
+              "fullTitle": "multiply should return 0 when called with numbers 0 and 15",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(multiply.multiply(0,15)).to.be.equal(0);",
+              "err": {},
+              "uuid": "4c2c99c3-aed2-4666-b2e5-0c5f004ae40a",
+              "parentUUID": "8930847e-24bf-49d7-a0e5-01605bb93e9b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return 0 when called with numbers 0 and 0",
+              "fullTitle": "multiply should return 0 when called with numbers 0 and 0",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(multiply.multiply(0, 0)).to.be.equal(0);",
+              "err": {},
+              "uuid": "0d0e683c-0ea0-4cec-a288-24f1bef14e7d",
+              "parentUUID": "8930847e-24bf-49d7-a0e5-01605bb93e9b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return 25 when called with numbers -5 and -5",
+              "fullTitle": "multiply should return 25 when called with numbers -5 and -5",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(multiply.multiply(-5, -5)).to.be.equal(25);",
+              "err": {},
+              "uuid": "52f010ef-5c11-481e-a5bb-091c8b762237",
+              "parentUUID": "8930847e-24bf-49d7-a0e5-01605bb93e9b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return -100 when called with numbers -10 and 10",
+              "fullTitle": "multiply should return -100 when called with numbers -10 and 10",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(multiply.multiply(-10, 10)).to.be.equal(-100);",
+              "err": {},
+              "uuid": "4f604159-5c35-456f-9de7-a7f32f3423f0",
+              "parentUUID": "8930847e-24bf-49d7-a0e5-01605bb93e9b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4c2c99c3-aed2-4666-b2e5-0c5f004ae40a",
+            "0d0e683c-0ea0-4cec-a288-24f1bef14e7d",
+            "52f010ef-5c11-481e-a5bb-091c8b762237",
+            "4f604159-5c35-456f-9de7-a7f32f3423f0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 5000
+        },
+        {
+          "uuid": "5eba5b42-ba5e-4472-bd53-f53c473e3348",
+          "title": "plus",
+          "fullFile": "D:\\Учеба\\JS\\calculator\\calc\\test\\specs\\plus.spec.js",
+          "file": "\\test\\specs\\plus.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook",
+              "fullTitle": "plus \"before each\" hook",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "plus = new Calculator();",
+              "err": {},
+              "uuid": "030838e8-4e17-4b8d-b0de-1f6db9c82f7e",
+              "parentUUID": "5eba5b42-ba5e-4472-bd53-f53c473e3348",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after each\" hook",
+              "fullTitle": "plus \"after each\" hook",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "plus = null;",
+              "err": {},
+              "uuid": "1b62934d-e353-41f8-b0a4-cff951b6fcc5",
+              "parentUUID": "5eba5b42-ba5e-4472-bd53-f53c473e3348",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "should return 25 when called with numbers 10 and 15",
+              "fullTitle": "plus should return 25 when called with numbers 10 and 15",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(plus.plus(10,15)).to.be.equal(25);",
+              "err": {},
+              "uuid": "ea05f11d-d45e-49dd-aec9-74e56b55808a",
+              "parentUUID": "5eba5b42-ba5e-4472-bd53-f53c473e3348",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return 0 when called with numbers 0 and 0",
+              "fullTitle": "plus should return 0 when called with numbers 0 and 0",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(plus.plus(0, 0)).to.be.equal(0);",
+              "err": {},
+              "uuid": "852f8b11-3871-4ef1-bc9f-e354aec95048",
+              "parentUUID": "5eba5b42-ba5e-4472-bd53-f53c473e3348",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return 5 when called with numbers -10 and 15",
+              "fullTitle": "plus should return 5 when called with numbers -10 and 15",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(plus.plus(-10, 15)).to.be.equal(5);",
+              "err": {},
+              "uuid": "7b773a94-cbc0-497e-8b00-16089cfbe366",
+              "parentUUID": "5eba5b42-ba5e-4472-bd53-f53c473e3348",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ea05f11d-d45e-49dd-aec9-74e56b55808a",
+            "852f8b11-3871-4ef1-bc9f-e354aec95048",
+            "7b773a94-cbc0-497e-8b00-16089cfbe366"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 5000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 5000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": null,
+      "version": "4.0.1"
+    }
+  }
+}

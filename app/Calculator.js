@@ -8,4 +8,4 @@ class Calculator {
         return a * b;
     }
 }
-export default Calculator;
+module.exports = Calculator;

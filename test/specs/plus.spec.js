@@ -1,15 +1,14 @@
-import Calculator from './Calculator.js';
-import { use } from 'chai';
-import spies from 'chai-spies';
-import { expect } from 'chai';
-use(spies);
+const Calculator = require('./../../app/Calculator');
+const chai = require('chai');
+const spies = require('chai-spies');
+const { expect } = require('chai');
+chai.use(spies);
 
 describe('plus', function() {
-    let plus, spy;
+    let plus;
 
     beforeEach(() => {
         plus = new Calculator();
-        spy = _spy.on(plus, 'plus');
     });
 
     afterEach(() => {
